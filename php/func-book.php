@@ -15,8 +15,6 @@ function get_all_books($con){
    return $books;
 }
 
-
-
 # Get  book by ID function
 function get_book($con, $id){
    $sql  = "SELECT * FROM books WHERE id=?";
